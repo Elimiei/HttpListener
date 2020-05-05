@@ -1,0 +1,13 @@
+C:\Users\Emilie\Documents\MDS B3 DEV\Securite\ServerSecuriteMDS\ServerSecuriteMDS\obj\Debug\netcoreapp3.1\ServerSecuriteMDS.csprojAssemblyReference.cache
+C:\Users\Emilie\Documents\MDS B3 DEV\Securite\ServerSecuriteMDS\ServerSecuriteMDS\obj\Debug\netcoreapp3.1\ServerSecuriteMDS.csproj.CoreCompileInputs.cache
+C:\Users\Emilie\Documents\MDS B3 DEV\Securite\ServerSecuriteMDS\ServerSecuriteMDS\obj\Debug\netcoreapp3.1\ServerSecuriteMDS.AssemblyInfoInputs.cache
+C:\Users\Emilie\Documents\MDS B3 DEV\Securite\ServerSecuriteMDS\ServerSecuriteMDS\obj\Debug\netcoreapp3.1\ServerSecuriteMDS.AssemblyInfo.cs
+C:\Users\Emilie\Documents\MDS B3 DEV\Securite\ServerSecuriteMDS\ServerSecuriteMDS\bin\Debug\netcoreapp3.1\ServerSecuriteMDS.exe
+C:\Users\Emilie\Documents\MDS B3 DEV\Securite\ServerSecuriteMDS\ServerSecuriteMDS\bin\Debug\netcoreapp3.1\ServerSecuriteMDS.deps.json
+C:\Users\Emilie\Documents\MDS B3 DEV\Securite\ServerSecuriteMDS\ServerSecuriteMDS\bin\Debug\netcoreapp3.1\ServerSecuriteMDS.runtimeconfig.json
+C:\Users\Emilie\Documents\MDS B3 DEV\Securite\ServerSecuriteMDS\ServerSecuriteMDS\bin\Debug\netcoreapp3.1\ServerSecuriteMDS.runtimeconfig.dev.json
+C:\Users\Emilie\Documents\MDS B3 DEV\Securite\ServerSecuriteMDS\ServerSecuriteMDS\bin\Debug\netcoreapp3.1\ServerSecuriteMDS.dll
+C:\Users\Emilie\Documents\MDS B3 DEV\Securite\ServerSecuriteMDS\ServerSecuriteMDS\bin\Debug\netcoreapp3.1\ServerSecuriteMDS.pdb
+C:\Users\Emilie\Documents\MDS B3 DEV\Securite\ServerSecuriteMDS\ServerSecuriteMDS\obj\Debug\netcoreapp3.1\ServerSecuriteMDS.dll
+C:\Users\Emilie\Documents\MDS B3 DEV\Securite\ServerSecuriteMDS\ServerSecuriteMDS\obj\Debug\netcoreapp3.1\ServerSecuriteMDS.pdb
+C:\Users\Emilie\Documents\MDS B3 DEV\Securite\ServerSecuriteMDS\ServerSecuriteMDS\obj\Debug\netcoreapp3.1\ServerSecuriteMDS.genruntimeconfig.cache
