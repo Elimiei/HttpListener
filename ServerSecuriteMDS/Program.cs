@@ -16,7 +16,7 @@ namespace ServerSecuriteMDS
                 return;
             }
             // URI prefixes are required,
-            var prefixes = new List<string>() { "http://*:8888/" };
+            var prefixes = new List<string>() { "http://localhost:8080/" };
 
             // Create a listener.
             HttpListener listener = new HttpListener();
@@ -25,6 +25,7 @@ namespace ServerSecuriteMDS
             {
                 listener.Prefixes.Add(s);
             }
+            listener.AuthenticationSchemes = AuthenticationSchemes.Basic;
             listener.Start();
             Console.WriteLine("Listening...");
             while (true)
@@ -45,10 +46,14 @@ namespace ServerSecuriteMDS
                 Console.WriteLine($"Recived request for {request.Url}");
                 Console.WriteLine(documentContents);
 
+                System.Security.Principal.IPrincipal user = context.User;
+                System.Security.Principal.IIdentity id = user.Identity;
+                Console.WriteLine(user);
+
                 // Obtain a response object.
                 HttpListenerResponse response = context.Response;
                 // Construct a response.
-                string responseString = "<HTML><BODY> Hello world!</BODY></HTML>";
+                string responseString = "aaaa";
                 byte[] buffer = System.Text.Encoding.UTF8.GetBytes(responseString);
                 // Get a response stream and write the response to it.
                 response.ContentLength64 = buffer.Length;
@@ -58,6 +63,28 @@ namespace ServerSecuriteMDS
                 output.Close();
             }
             listener.Stop();
+        }
+
+        public static string ClientInformation(HttpListenerContext context)
+        {
+            System.Security.Principal.IPrincipal user = context.User;
+            System.Security.Principal.IIdentity id = user.Identity;
+            if (id == null)
+            {
+                return "Client authentication is not enabled for this Web server.";
+            }
+
+            string display;
+            if (id.IsAuthenticated)
+            {
+                display = String.Format("{0} was authenticated using {1}", id.Name,
+                    id.AuthenticationType);
+            }
+            else
+            {
+                display = String.Format("{0} was not authenticated", id.Name);
+            }
+            return display;
         }
     }
     }
